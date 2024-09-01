@@ -54,4 +54,34 @@ struct WorkoutsView: View {
                         .font(.largeTitle)
                         .fontWeight(.bold)
                         .foregroundColor(.white)
+                        .shadow(radius: 5)
+                }
+            }
+            .buttonStyle(PlainButtonStyle()) // Removes default button style
 
+            // Legs Workout Section
+            Button(action: {
+                // Action for Legs workout
+            }) {
+                ZStack {
+                    Image("legsImage") // Replace with your image name
+                        .resizable()
+                        .scaledToFill()
+                        .frame(height: 150)
+                        .clipped()
+                        .cornerRadius(15)
+
+                    Text("LEGS")
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
+                        .foregroundColor(.white)
+                        .shadow(radius: 5)
+                }
+            }
+            .buttonStyle(PlainButtonStyle()) // Removes default button style
+
+            Spacer()
+        }
+        .padding()
+    }
+}

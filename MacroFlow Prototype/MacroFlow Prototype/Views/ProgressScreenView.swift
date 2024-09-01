@@ -5,6 +5,9 @@
 //  Created by Ryan D'Mello on 1/9/2024.
 //
 
+// NOTE: This view uses a custom layout. I chose to do a custom layout for this view, as it was the most complicated view for the prototype, with a graph on the screen. With this I came to a conclusion that it could benefit the most from a custom layout.
+// All other work has been using SwiftUI layouts as specified in the assessment.
+
 import SwiftUI
 
 /// Progress view displaying weight change over time with a graph and list of entries.
