@@ -14,6 +14,7 @@
 		946A6CF12C806E7B0073D53E /* MacroFlow_PrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946A6CF02C806E7B0073D53E /* MacroFlow_PrototypeTests.swift */; };
 		946A6CFB2C806E7B0073D53E /* MacroFlow_PrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946A6CFA2C806E7B0073D53E /* MacroFlow_PrototypeUITests.swift */; };
 		946A6CFD2C806E7B0073D53E /* MacroFlow_PrototypeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946A6CFC2C806E7B0073D53E /* MacroFlow_PrototypeUITestsLaunchTests.swift */; };
+		94B51D2B2C84223400D67DF6 /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B51D2A2C84223400D67DF6 /* TabBarButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		946A6CF62C806E7B0073D53E /* MacroFlow PrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MacroFlow PrototypeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		946A6CFA2C806E7B0073D53E /* MacroFlow_PrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroFlow_PrototypeUITests.swift; sourceTree = "<group>"; };
 		946A6CFC2C806E7B0073D53E /* MacroFlow_PrototypeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroFlow_PrototypeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		94B51D2A2C84223400D67DF6 /* TabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +98,10 @@
 			children = (
 				946A6CDF2C806E790073D53E /* MacroFlow_PrototypeApp.swift */,
 				946A6CE12C806E790073D53E /* ContentView.swift */,
-				946A6CE32C806E7B0073D53E /* Assets.xcassets */,
+				94B51D272C84210C00D67DF6 /* Components */,
+				94B51D282C84213900D67DF6 /* Views */,
 				946A6CE52C806E7B0073D53E /* Preview Content */,
+				94B51D292C84217B00D67DF6 /* Resources */,
 			);
 			path = "MacroFlow Prototype";
 			sourceTree = "<group>";
@@ -125,6 +129,29 @@
 				946A6CFC2C806E7B0073D53E /* MacroFlow_PrototypeUITestsLaunchTests.swift */,
 			);
 			path = "MacroFlow PrototypeUITests";
+			sourceTree = "<group>";
+		};
+		94B51D272C84210C00D67DF6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				94B51D2A2C84223400D67DF6 /* TabBarButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		94B51D282C84213900D67DF6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		94B51D292C84217B00D67DF6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				946A6CE32C806E7B0073D53E /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +286,7 @@
 			files = (
 				946A6CE22C806E790073D53E /* ContentView.swift in Sources */,
 				946A6CE02C806E790073D53E /* MacroFlow_PrototypeApp.swift in Sources */,
+				94B51D2B2C84223400D67DF6 /* TabBarButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
